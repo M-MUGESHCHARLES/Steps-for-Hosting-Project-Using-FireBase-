@@ -11,7 +11,7 @@ After you've successfully logged in, you'll need to create a project on Firebase
    1.3) If you've previously used Firebase, that means you already have projects on Firebase. In that case, it will bring up a page displaying a list of your projects and a box to `add a new project`.
 
 ## Step 2: Create a New Project
-   2.1) Click the **"Add project"** card.
+   2.1) Click the **`Add project`** card.
    
    2.2) Tick the `Accept Firebase terms` checkbox and the second checkbox.
    
