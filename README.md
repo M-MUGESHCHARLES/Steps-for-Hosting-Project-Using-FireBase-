@@ -29,7 +29,13 @@ After you've successfully logged in, you'll need to create a project on Firebase
    Ensure you're in the main folder of the project you want to deploy. 
 
    3.1)  install Firebase into the project using this command:
+   
          ```bash
           npm install firebase
          ```
+         
+```bash
+  npm install my-project
+  cd my-project
+```
          
