@@ -30,6 +30,6 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
    3.1)  install Firebase into the project using this command:
          ```bash
-          **`npm install firebase`**
+          npm install firebase
          ```
          
