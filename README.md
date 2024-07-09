@@ -201,7 +201,7 @@ After you've successfully logged in, you'll need to create a project on Firebase
     firebase deploy 
 ```
 
-    After running firebase deploy, your React app should be live on Firebase Hosting. You will get a URL in the terminal where your app is deployed.
+ After running firebase deploy, your React app should be live on Firebase Hosting. You will get a URL in the terminal where your app is deployed.
 
 
 ## New Modifications / Updation of the App  
