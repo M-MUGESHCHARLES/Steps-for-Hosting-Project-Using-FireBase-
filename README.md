@@ -48,8 +48,9 @@ After you've successfully logged in, you'll need to create a project on Firebase
           firebase login
 ```
 
-   4.2)  "Allow Firebase to collect CLI and Emulator Suite usage and error reporting information" :- 
-   Select the **`Yes`** option.
+   4.2)  "Allow Firebase to collect CLI and Emulator Suite usage and error reporting information" :
+
+- Select the **`Yes`** option.
 
 ## Step 5: Select Account :
 
@@ -73,10 +74,14 @@ After you've successfully logged in, you'll need to create a project on Firebase
 ```
 
    7.2)  "Are you ready to proceed?" :
-- Type **`Y`** for " yes ".
+        - Type **`Y`** for " yes ".
 
-   7.3)   "Which Firebase features do you want to set up for this directory?" :
-   Use the arrow down key on your keyboard to point to the "Hosting:Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys" option.
-- Press the space bar and then hit enter.
+  7.3)   "Which Firebase features do you want to set up for this directory?" :
+
+   Use the arrow down key on your keyboard to point to the option
+   
+   "Hosting:Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys" .
+   
+       - Press the space bar and then hit enter.
 
 
