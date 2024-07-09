@@ -5,25 +5,25 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
 ## Step 1: Firebase Console Dashboard :
 
-#### 1.1)  Go to your Firebase console dashboard, where you should see the text **` Go to console `** at the top right-hand side of your page after logging in.
+#### 1.1 )  Go to your Firebase console dashboard, where you should see the text **` Go to console `** at the top right-hand side of your page after logging in.
 
-#### 1.2)  The page that opens up will have a **` Create a project `** button. Click on that button and it will take you to the page where you'll input your project details. (Step 2)
+#### 1.2 )  The page that opens up will have a **` Create a project `** button. Click on that button and it will take you to the page where you'll input your project details. (Step 2)
 
-#### 1.3)  If you've previously used Firebase, that means you already have projects on Firebase. In that case, it will bring up a page displaying a list of your projects and a box to **` add a new project `**.
+#### 1.3 )  If you've previously used Firebase, that means you already have projects on Firebase. In that case, it will bring up a page displaying a list of your projects and a box to **` add a new project `**.
 
 
 
 ## Step 2: Create a New Project :
 
-#### 2.1)  Click the **` Add project `** card ; name the project **" Project_Name "**.
+#### 2.1 )  Click the **` Add project `** card ; name the project **" Project_Name "**.
    
-#### 2.2)  Accept the **` Accept Firebase terms `** checkbox and the second checkbox.
+#### 2.2 )  Accept the **` Accept Firebase terms `** checkbox and the second checkbox.
    
-#### 2.3)  Click the **` continue `** button. 
+#### 2.3 )  Click the **` continue `** button. 
 
-#### 2.4)  **` Disable the toggle `** as we don't need Google Analytics. 
+#### 2.4 )  **` Disable the toggle `** as we don't need Google Analytics. 
 
-#### 2.5)  Click the **` Create Project `** button and it should start creating your Firebase project.
+#### 2.5 )  Click the **` Create Project `** button and it should start creating your Firebase project.
 
 
 
@@ -32,13 +32,13 @@ After you've successfully logged in, you'll need to create a project on Firebase
    The next step is to go to your project terminal on your code editor you're using, 
    Ensure you're in the main folder of the project you want to deploy. 
 
-#### 3.1)  Install Firebase into the project using this command:
+#### 3.1 )  Install Firebase into the project using this command:
    
 ```bash
           npm install firebase
 ```
 
-#### 3.2)  Next, install the Firebase tools using this command:
+#### 3.2 )  Next, install the Firebase tools using this command:
 
 ```bash
           npm install -g firebase-tools
@@ -48,14 +48,14 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
 ## Step 4: Log in to Firebase Using the Terminal :
 
-#### 4.1)  Log in to Firebase on the terminal using this command: 
+#### 4.1 )  Log in to Firebase on the terminal using this command: 
 
 ```bash
           firebase login
 ```
 
 
-#### 4.2)  "Allow Firebase to collect CLI and Emulator Suite usage and error reporting information" :
+#### 4.2 )  "Allow Firebase to collect CLI and Emulator Suite usage and error reporting information" :
    
 -  Select the **` Yes `** option.
 
@@ -71,7 +71,7 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
 ## Step 6: Run Project Build :
 
-#### 6.1)  Build the project scripts using this command:
+#### 6.1 )  Build the project scripts using this command:
 
 ```bash
           npm run build 
@@ -81,17 +81,17 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
 ## Step 7: Initialize Firebase :
 
-#### 7.1)  Initialize Firebase using this command
+#### 7.1 )  Initialize Firebase using this command
 
 ```bash
           firebase init
 ```
 
-#### 7.2)  "Are you ready to proceed?" :
+#### 7.2 )  "Are you ready to proceed?" :
    
 -  Type **` Y `** for " yes ".
 
-#### 7.3)  "Which Firebase features do you want to set up for this directory?"
+#### 7.3 )  "Which Firebase features do you want to set up for this directory?"
 
    - Use the arrow down key on your keyboard to point to the option
    
@@ -103,9 +103,9 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
 ## Step 8: Project Setup :
 
-    This step connects your project directory with the Firebase project.
+This step connects your project directory with the Firebase project.
 
-#### 8.1)  "select a default Firebase project for the directory"
+#### 8.1 )  "select a default Firebase project for the directory"
 
    - select the particular Firebase project you created.
 
@@ -113,21 +113,21 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
 ## Step 9: Setup Hosting :
 
-    This process will bring up some prompts you'll have to answer.
+This process will bring up some prompts you'll have to answer.
 
-#### 9.1)  "What do you want to use as your public directory?"
+#### 9.1 )  "What do you want to use as your public directory?"
 
    - Type **` build `**.
 
-#### 9.2)  "Configure as a single-page app (rewrite all urls to /index.html)"
+#### 9.2 )  "Configure as a single-page app (rewrite all urls to /index.html)"
 
    - Type **` Y `** or **` Yes `**.
 
-#### 9.3)  "Set up automatic builds and deploys with GitHub?"
+#### 9.3 )  "Set up automatic builds and deploys with GitHub?"
 
    - Choose **` Yes `** option.
 
-#### 9.4)  "File build/index.html already exists. Overwrite?"
+#### 9.4 )  "File build/index.html already exists. Overwrite?"
 
    - Choose **` No `** option.
 
@@ -137,47 +137,47 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
 ####  You need to authorize Firebase with your GitHub account.
     
-     A window will open up on your browser that will require you to authorize Firebase into your GitHub,
+A window will open up on your browser that will require you to authorize Firebase into your GitHub,
      
    - **` input your GitHub password `**
      
-      After a successful authentication, you'll get a success message on your terminal with your GitHub username.
+After a successful authentication, you'll get a success message on your terminal with your GitHub username.
 
 
 
 ## Step 11: How to Choose a GitHub Repository and Set Up GitHub Workflow :
 
-#### 11.1)  Select Github Repo :
+#### 11.1 )  Select Github Repo :
 
-    Type the GitHub repository you'd like to use to set up a GitHub workflow for Firebase deployments.
+Type the GitHub repository you'd like to use to set up a GitHub workflow for Firebase deployments.
 
    - Format **` " github_username/repository " `** .
 
-#### 11.2)  Github Secret token :
+#### 11.2 )  Github Secret token :
 
-    After setting up a GitHub workflow, it will create a secret token.
+After setting up a GitHub workflow, it will create a secret token.
 
-    You can also view this secret token on GitHub. 
+You can also view this secret token on GitHub. 
 
-    To do this, go to the repository of the project and switch to the "Settings" tab. On the left-hand panel of the settings page, click on the "Secrets and variables" dropdown and select the "Actions" option.
+To do this, go to the repository of the project and switch to the "Settings" tab. On the left-hand panel of the settings page, click on the "Secrets and variables" dropdown and select the "Actions" option.
 
-#### 11.3)  Set up Workflow :
+#### 11.3 )  Set up Workflow :
 
-#### 11.3.1)  "Set up the workflow to run a build script before every deploy?"
+#### 11.3.1 )  "Set up the workflow to run a build script before every deploy?"
 
    - Choose **` Yes `** option.
 
-#### 11.3.2)  "What script should be run before every deploy? (npm ci && npm run build) npm run build"
+#### 11.3.2 )  "What script should be run before every deploy? (npm ci && npm run build) npm run build"
 
 - Type this **` npm ci && npm run build `** into the terminal.
 
-#### 11.4)  Automatic deployment :
+#### 11.4 )  Automatic deployment :
 
-#### 11.4.1)  "Set up automatic deployment to your site's live channel when a PR is merged"
+#### 11.4.1 )  "Set up automatic deployment to your site's live channel when a PR is merged"
 
  - Select **` Yes `** .
 
-#### 11.4.2)  "the name of the GitHub branch associated with your site's live channel ?"
+#### 11.4.2 )  "the name of the GitHub branch associated with your site's live channel ?"
 
  - Type or select **` main `** .
 
@@ -185,11 +185,11 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
 ## Step 12:  Generate Folders :
 
-     The two operations performed above will generate two folders in your project directory.
+The two operations performed above will generate two folders in your project directory.
      
-     One named "firebase.json" is where the configuration information will be written in, 
+One named "firebase.json" is where the configuration information will be written in, 
      
-     and the other named ".firebaserc" is where the project information will be written in.
+and the other named ".firebaserc" is where the project information will be written in.
 
    
 
