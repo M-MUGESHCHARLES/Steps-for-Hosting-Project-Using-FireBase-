@@ -12,6 +12,7 @@ After you've successfully logged in, you'll need to create a project on Firebase
 #### 1.3)  If you've previously used Firebase, that means you already have projects on Firebase. In that case, it will bring up a page displaying a list of your projects and a box to **`add a new project`**.
 
 
+
 ## Step 2: Create a New Project :
 
 #### 2.1)  Click the **`Add project`** card ; name the project **" Project_Name "**.
@@ -23,6 +24,7 @@ After you've successfully logged in, you'll need to create a project on Firebase
 #### 2.4)  **`Disable the toggle`** as we don't need Google Analytics. 
 
 #### 2.5)  Click the **`Create Project`** button and it should start creating your Firebase project.
+
 
 
 ## Step 3: Install Firebase and Firebase Tools :
@@ -42,6 +44,8 @@ After you've successfully logged in, you'll need to create a project on Firebase
           npm install -g firebase-tools
 ```
 
+
+
 ## Step 4: Log in to Firebase Using the Terminal :
 
 #### 4.1)  Log in to Firebase on the terminal using this command: 
@@ -56,11 +60,13 @@ After you've successfully logged in, you'll need to create a project on Firebase
 -  Select the **`Yes`** option.
 
 
+
 ## Step 5: Select Account :
 
    A window will open up on the default browser that will require you to select your Firebase account for login.
 
    After successful authentication, a success message will appear on the terminal.
+
 
 
 ## Step 6: Run Project Build :
@@ -70,6 +76,8 @@ After you've successfully logged in, you'll need to create a project on Firebase
 ```bash
           npm run build 
 ```
+
+
 
 ## Step 7: Initialize Firebase :
 
