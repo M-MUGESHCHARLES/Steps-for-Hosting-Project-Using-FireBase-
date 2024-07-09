@@ -1,4 +1,4 @@
-# Firebase-Deploy
+# Host and Deploy a React App with Firebase
 
 If you don't have an account on Firebase, go to this site to create an account on [**Firebase**](https://firebase.google.com/) or log in ;
 After you've successfully logged in, you'll need to create a project on Firebase.
