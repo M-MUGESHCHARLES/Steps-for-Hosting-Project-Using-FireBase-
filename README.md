@@ -30,12 +30,53 @@ After you've successfully logged in, you'll need to create a project on Firebase
 
    3.1)  install Firebase into the project using this command:
    
-         ```bash
-          npm install firebase
-         ```
-         
 ```bash
-  npm install my-project
-  cd my-project
+          npm install firebase
 ```
-         
+
+   3.2)  Next, install the Firebase tools using this command:
+
+```bash
+          npm install -g firebase-tools
+```
+
+## Step 4: Log in to Firebase Using the Terminal :
+
+   4.1)  Log in to Firebase on the terminal using this command: 
+
+```bash
+          firebase login
+```
+
+   4.2)  "Allow Firebase to collect CLI and Emulator Suite usage and error reporting information" :- 
+   Select the **`Yes`** option.
+
+## Step 5: Select Account :
+
+   A window will open up on the default browser that will require you to select your Firebase account for login.
+
+   After successful authentication, a success message will appear on the terminal.
+
+## Step 6: Run Project Build :
+
+   6.1)  Build the project scripts using this command:
+
+```bash
+          npm run build 
+```
+## Step 7: Initialize Firebase :
+
+   7.1)  Initialize Firebase using this command:
+
+```bash
+          firebase init
+```
+
+   7.2)  "Are you ready to proceed?" :
+- Type **`Y`** for " yes ".
+
+   7.3)   "Which Firebase features do you want to set up for this directory?" :
+   Use the arrow down key on your keyboard to point to the "Hosting:Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys" option.
+- Press the space bar and then hit enter.
+
+
