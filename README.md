@@ -100,3 +100,121 @@ After you've successfully logged in, you'll need to create a project on Firebase
    - Press the space bar and then hit enter.
 
 
+
+## Step 8: Project Setup :
+
+    This step connects your project directory with the Firebase project.
+
+#### 8.1)  "select a default Firebase project for the directory"
+
+   - select the particular Firebase project you created.
+
+
+
+## Step 9: Setup Hosting :
+
+    This process will bring up some prompts you'll have to answer.
+
+#### 9.1)  "What do you want to use as your public directory?"
+
+   - Type **` build `**.
+
+#### 9.2)  "Configure as a single-page app (rewrite all urls to /index.html)"
+
+   - Type **` Y `** or **` Yes `**.
+
+#### 9.3)  "Set up automatic builds and deploys with GitHub?"
+
+   - Choose **` Yes `** option.
+
+#### 9.4)  "File build/index.html already exists. Overwrite?"
+
+   - Choose **` No `** option.
+
+
+
+## Step 10: Authorize Firebse with Github :
+
+####  You need to authorize Firebase with your GitHub account.
+    
+     A window will open up on your browser that will require you to authorize Firebase into your GitHub,
+     
+   - **` input your GitHub password `**
+     
+      After a successful authentication, you'll get a success message on your terminal with your GitHub username.
+
+
+
+## Step 11: How to Choose a GitHub Repository and Set Up GitHub Workflow :
+
+#### 11.1)  Select Github Repo :
+
+    Type the GitHub repository you'd like to use to set up a GitHub workflow for Firebase deployments.
+
+   - Format **` " github_username/repository " `** .
+
+#### 11.2)  Github Secret token :
+
+    After setting up a GitHub workflow, it will create a secret token.
+
+    You can also view this secret token on GitHub. 
+
+    To do this, go to the repository of the project and switch to the "Settings" tab. On the left-hand panel of the settings page, click on the "Secrets and variables" dropdown and select the "Actions" option.
+
+#### 11.3)  Set up Workflow :
+
+#### 11.3.1)  "Set up the workflow to run a build script before every deploy?"
+
+   - Choose **` Yes `** option.
+
+#### 11.3.2)  "What script should be run before every deploy? (npm ci && npm run build) npm run build"
+
+- Type this **` npm ci && npm run build `** into the terminal.
+
+#### 11.4)  Automatic deployment :
+
+#### 11.4.1)  "Set up automatic deployment to your site's live channel when a PR is merged"
+
+ - Select **` Yes `** .
+
+#### 11.4.2)  "the name of the GitHub branch associated with your site's live channel ?"
+
+ - Type or select **` main `** .
+
+
+
+## Step 12:  Generate Folders :
+
+     The two operations performed above will generate two folders in your project directory.
+     
+     One named "firebase.json" is where the configuration information will be written in, 
+     
+     and the other named ".firebaserc" is where the project information will be written in.
+
+   
+
+# How to Deploy to Firebase :
+
+## Run the Deployment Command 
+
+```bash 
+    firebase deploy 
+```
+
+    After running firebase deploy, your React app should be live on Firebase Hosting. You will get a URL in the terminal where your app is deployed.
+
+
+## New Modifications / Updation of the App  
+
+   Once new changes are made in the application then run the following commands ,
+
+```bash
+    npm run build
+```
+
+   and 
+
+```bash 
+    firebase deploy
+```
+
